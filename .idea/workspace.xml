@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cde1da20-9d44-490f-9562-211f5e5bc672" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MovieRecommendSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/scala/com/liukuijian/ContentBasedRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$8$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$8$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$$typecreator6$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/ContentBasedRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/MongoConfig$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/Movie$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/MovieRecs$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/MovieRecs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/Recommendation$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/com/liukuijian/Recommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/DataLoader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/resources/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/resources/ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/resources/tags.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/liukuijian/recommender/DataLoader.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/DataLoader-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes.-1943146646.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$$typecreator6$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/DataLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/ESConfig$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/ESConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/MongoConfig$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/Movie$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/Rating$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/Rating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/Tag$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/com/liukuijian/recommender/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/classes/tags.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/DataLoader/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/liukuijian/ALSTrainer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/liukuijian/OfflineRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$anonfun$adjustASLParam$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/ALSTrainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/MongoConfig$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/MovieRating$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/MovieRating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/MovieRecs$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/MovieRecs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$12$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$12$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$7$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$7$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/OfflineRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/Recommendation$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/Recommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/UserRecs$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/com/liukuijian/UserRecs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/OfflineRecommender/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/src/main/scala/com/liukuijian/StatisticRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/StatisticRecommender-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes.-700477106.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/GenresRecommendation$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/GenresRecommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/MongoConfig$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Movie$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Rating$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Rating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Recommendation$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Recommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$anonfun$3$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$anonfun$3$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/StatisticRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Tag$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StatisticRecommender/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/StreamingRecommender.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/src/main/scala/com/liukuijian/StreamingRecommender.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/ConnHelper$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/ConnHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/MongoConfig$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/MovieRecs$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/MovieRecs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/Recommendation$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/Recommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$1$$anonfun$apply$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$3$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$3$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$3$$anonfun$apply$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$computeMovieScores$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$getTopSimMovies$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$getTopSimMovies$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$getTopSimMovies$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$getUserRecentlyRating$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$main$1$$anonfun$apply$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$anonfun$saveRecsToMongoDB$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/StreamingRecommender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/UserRecs$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/com/liukuijian/UserRecs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/StreamingRecommender/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender/recommender.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/DataLoader/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/StatisticRecommender/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/OfflineRecommender/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/StreamingRecommender/target/" />
+    <ignored path="$PROJECT_DIR$/recommender/ContentBasedRecommender/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/scala/com/liukuijian/ContentBasedRecommender.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>127</find>
+      <find>126</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="liukuijian" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/recommender/DataLoader/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/liukuijian/recommender/DataLoader.scala" />
+        <option value="$PROJECT_DIR$/recommender/StatisticRecommender/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/StatisticRecommender/src/main/scala/com/liukkuijian/statisticrecommender/StatisticRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/StatisticRecommender/src/main/scala/StatisticRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/StatisticRecommender/src/main/scala/com/liukuijian/StatisticRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/OfflineRecommender/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/liukuijian/ALSTrainer.scala" />
+        <option value="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/liukuijian/OfflineRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/StreamingRecommender/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/StreamingRecommender/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/recommender/StreamingRecommender/src/main/scala/com/liukuijian/StreamingRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/ContentBasedRecommender/pom.xml" />
+        <option value="$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/scala/com/liukuijian/ContentBasedRecommender.scala" />
+        <option value="$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/resources/log4j.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="F:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MovieRecommendSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MovieRecommendSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OfflineRecommender" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OfflineRecommender" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MovieRecommendSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieRecommendSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MovieRecommendSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MovieRecommendSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="recommender" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\MovieRecommendSystem\recommender\OfflineRecommender\src\main\resources" />
+      <recent name="E:\IdeaProjects\MovieRecommendSystem\recommender\StatisticRecommender\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\MovieRecommendSystem\recommender\ContentBasedRecommender\src\main\resources" />
+      <recent name="E:\IdeaProjects\MovieRecommendSystem\recommender\StreamingRecommender\src\main\resources" />
+      <recent name="E:\IdeaProjects\MovieRecommendSystem\recommender\OfflineRecommender\src\main\scala" />
+      <recent name="E:\IdeaProjects\MovieRecommendSystem\recommender\DataLoader\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ContentBasedRecommender">
+    <configuration name="ALSTrainer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.liukuijian.ALSTrainer" />
+      <module name="OfflineRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liukuijian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentBasedRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.liukuijian.ContentBasedRecommender" />
+      <module name="ContentBasedRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liukuijian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfflineRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.liukuijian.OfflineRecommender" />
+      <module name="OfflineRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liukuijian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingRecommender" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.liukuijian.StreamingRecommender" />
+      <module name="StreamingRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liukuijian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRecommendSystem [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ContentBasedRecommender" />
+        <item itemvalue="Application.StreamingRecommender" />
+        <item itemvalue="Application.OfflineRecommender" />
+        <item itemvalue="Application.ALSTrainer" />
+        <item itemvalue="Maven.MovieRecommendSystem [install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cde1da20-9d44-490f-9562-211f5e5bc672" name="Default Changelist" comment="" />
+      <created>1579410227685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579410227685</updated>
+      <workItem from="1579410230608" duration="20775000" />
+      <workItem from="1579439724522" duration="6333000" />
+      <workItem from="1579495734878" duration="16774000" />
+      <workItem from="1579512997858" duration="4749000" />
+      <workItem from="1579660282763" duration="1972000" />
+      <workItem from="1580625460068" duration="261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50864000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.407355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.22252011" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="recommendproject 1st edition" />
+    <option name="LAST_COMMIT_MESSAGE" value="recommendproject 1st edition" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/recommender/DataLoader/src/main/resources/tags.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/com.liukuijian:DataLoader:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.liukuijian:DataLoader:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.liukuijian:DataLoader:1.0-SNAPSHOT</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7/org.apache.avro:avro:jar:1.7.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7/org.apache.avro:avro:jar:1.7.7/com.thoughtworks.paranamer:paranamer:jar:2.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7/org.apache.avro:avro:jar:1.7.7/org.xerial.snappy:snappy-java:jar:1.0.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7/org.apache.avro:avro:jar:1.7.7/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:tests:1.7.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:tests:1.7.7/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.twitter:chill_2.11:jar:0.8.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.twitter:chill_2.11:jar:0.8.0/com.esotericsoftware:kryo-shaded:jar:3.0.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.twitter:chill_2.11:jar:0.8.0/com.esotericsoftware:kryo-shaded:jar:3.0.3/com.esotericsoftware:minlog:jar:1.3.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.twitter:chill_2.11:jar:0.8.0/com.esotericsoftware:kryo-shaded:jar:3.0.3/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.twitter:chill-java:jar:0.8.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.xbean:xbean-asm5-shaded:jar:4.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-cli:commons-cli:jar:1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.commons:commons-math:jar:2.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/xmlenc:xmlenc:jar:0.52</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-codec:commons-codec:jar:1.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-io:commons-io:jar:2.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-net:commons-net:jar:3.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-lang:commons-lang:jar:2.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-configuration:commons-configuration:jar:1.6</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-configuration:commons-configuration:jar:1.6/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-configuration:commons-configuration:jar:1.6/commons-lang:commons-lang:jar:2.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.codehaus.jackson:jackson-core-asl:jar:1.8.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.avro:avro:jar:1.7.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/com.google.protobuf:protobuf-java:jar:2.5.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.hadoop:hadoop-auth:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.hadoop:hadoop-auth:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.hadoop:hadoop-auth:jar:2.2.0/commons-codec:commons-codec:jar:1.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.hadoop:hadoop-auth:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.commons:commons-compress:jar:1.4.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-common:jar:2.2.0/org.apache.commons:commons-compress:jar:1.4.1/org.tukaani:xz:jar:1.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-hdfs:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-hdfs:jar:2.2.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-hdfs:jar:2.2.0/org.mortbay.jetty:jetty-util:jar:6.1.26</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-hdfs:jar:2.2.0/commons-codec:commons-codec:jar:1.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-hdfs:jar:2.2.0/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-client:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-client:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-client:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-client:jar:2.2.0/com.google.inject:guice:jar:3.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-client:jar:2.2.0/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-client:jar:2.2.0/com.google.inject:guice:jar:3.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-server-common:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-server-common:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.apache.hadoop:hadoop-yarn-server-common:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-yarn-api:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-yarn-api:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-yarn-api:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0/org.apache.hadoop:hadoop-yarn-common:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0/org.apache.hadoop:hadoop-yarn-common:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0/org.apache.hadoop:hadoop-yarn-common:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.hadoop:hadoop-client:jar:2.2.0/org.apache.hadoop:hadoop-annotations:jar:2.2.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-launcher_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-network-common_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-network-common_2.11:jar:2.1.1/org.fusesource.leveldbjni:leveldbjni-all:jar:1.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-network-common_2.11:jar:2.1.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-network-shuffle_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-unsafe_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.java.dev.jets3t:jets3t:jar:0.7.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.java.dev.jets3t:jets3t:jar:0.7.1/commons-codec:commons-codec:jar:1.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.java.dev.jets3t:jets3t:jar:0.7.1/commons-httpclient:commons-httpclient:jar:3.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.java.dev.jets3t:jets3t:jar:0.7.1/commons-httpclient:commons-httpclient:jar:3.1/commons-codec:commons-codec:jar:1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.curator:curator-framework:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.curator:curator-framework:jar:2.4.0/org.apache.curator:curator-client:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.curator:curator-framework:jar:2.4.0/org.apache.curator:curator-client:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.zookeeper:zookeeper:jar:3.4.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.zookeeper:zookeeper:jar:3.4.5/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.zookeeper:zookeeper:jar:3.4.5/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/org.apache.zookeeper:zookeeper:jar:3.4.5/log4j:log4j:jar:1.2.15</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.curator:curator-recipes:jar:2.4.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.commons:commons-math3:jar:3.4.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.slf4j:slf4j-api:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.slf4j:jul-to-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.slf4j:jul-to-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.slf4j:jcl-over-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.ning:compress-lzf:jar:1.0.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.xerial.snappy:snappy-java:jar:1.1.2.6</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.jpountz.lz4:lz4:jar:1.3.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.roaringbitmap:RoaringBitmap:jar:0.5.11</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/commons-net:commons-net:jar:2.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.json4s:json4s-ast_2.11:jar:3.2.11</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/com.thoughtworks.paranamer:paranamer:jar:2.6</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0/org.scala-lang:scala-reflect:jar:2.11.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0/org.scala-lang.modules:scala-xml_2.11:jar:1.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0/org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.json4s:json4s-jackson_2.11:jar:3.2.11/com.fasterxml.jackson.core:jackson-databind:jar:2.3.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/javax.ws.rs:javax.ws.rs-api:jar:2.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34/org.glassfish.hk2:hk2-utils:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34/org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-locator:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-locator:jar:2.4.0-b34/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-common:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-common:jar:2.22.2/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-common:jar:2.22.2/org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-common:jar:2.22.2/org.glassfish.hk2:osgi-resource-locator:jar:1.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-server:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-server:jar:2.22.2/org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.core:jersey-server:jar:2.22.2/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.netty:netty-all:jar:4.0.42.Final</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.netty:netty:jar:3.8.0.Final</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.clearspring.analytics:stream:jar:2.7.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-core:jar:3.1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-core:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-jvm:jar:3.1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-jvm:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-json:jar:3.1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-json:jar:3.1.2/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-json:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-graphite:jar:3.1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/io.dropwizard.metrics:metrics-graphite:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-core:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-reflect:jar:2.11.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.ivy:ivy:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/oro:oro:jar:2.0.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.razorvine:pyrolite:jar:4.13</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/net.sf.py4j:py4j:jar:0.10.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.spark:spark-tags_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.apache.commons:commons-crypto:jar:1.0.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.1.1/org.spark-project.spark:unused:jar:1.0.0</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/com.univocity:univocity-parsers:jar:2.2.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-sketch_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-catalyst_2.11:jar:2.1.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-catalyst_2.11:jar:2.1.1/org.scala-lang:scala-reflect:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-catalyst_2.11:jar:2.1.1/org.codehaus.janino:janino:jar:3.0.0</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-catalyst_2.11:jar:2.1.1/org.codehaus.janino:commons-compiler:jar:3.0.0</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-catalyst_2.11:jar:2.1.1/org.antlr:antlr4-runtime:jar:4.5.3</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.spark:spark-catalyst_2.11:jar:2.1.1/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-column:jar:1.8.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-column:jar:1.8.1/org.apache.parquet:parquet-common:jar:1.8.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-column:jar:1.8.1/org.apache.parquet:parquet-encoding:jar:1.8.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-column:jar:1.8.1/org.apache.parquet:parquet-encoding:jar:1.8.1/commons-codec:commons-codec:jar:1.5</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-column:jar:1.8.1/commons-codec:commons-codec:jar:1.3</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-hadoop:jar:1.8.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-hadoop:jar:1.8.1/org.apache.parquet:parquet-format:jar:2.3.0-incubating</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-hadoop:jar:1.8.1/org.apache.parquet:parquet-jackson:jar:1.8.1</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-hadoop:jar:1.8.1/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-hadoop:jar:1.8.1/org.codehaus.jackson:jackson-core-asl:jar:1.9.11</node>
+            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.1.1/org.apache.parquet:parquet-hadoop:jar:1.8.1/org.xerial.snappy:snappy-java:jar:1.1.1.6</node>
+            <node x="" y="">org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1/org.mongodb:casbah-commons_2.11:jar:3.1.1</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1/org.mongodb:casbah-commons_2.11:jar:3.1.1/com.github.nscala-time:nscala-time_2.11:jar:1.0.0</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1/org.mongodb:casbah-commons_2.11:jar:3.1.1/com.github.nscala-time:nscala-time_2.11:jar:1.0.0/joda-time:joda-time:jar:2.3</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1/org.mongodb:casbah-commons_2.11:jar:3.1.1/com.github.nscala-time:nscala-time_2.11:jar:1.0.0/org.joda:joda-convert:jar:1.2</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1/org.mongodb:casbah-commons_2.11:jar:3.1.1/org.slf4j:slf4j-api:jar:1.6.0</node>
+            <node x="" y="">org.mongodb:casbah-core_2.11:jar:3.1.1/org.mongodb:casbah-query_2.11:jar:3.1.1</node>
+            <node x="" y="">org.mongodb.spark:mongo-spark-connector_2.11:jar:2.0.0</node>
+            <node x="" y="">org.mongodb.spark:mongo-spark-connector_2.11:jar:2.0.0/org.mongodb:mongo-java-driver:jar:3.2.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-core:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-analyzers-common:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-backward-codecs:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-grouping:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-highlighter:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-join:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-memory:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-misc:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-queries:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-queryparser:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-sandbox:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-spatial:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-spatial-extras:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-spatial3d:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.lucene:lucene-suggest:jar:6.6.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.elasticsearch:securesm:jar:1.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/net.sf.jopt-simple:jopt-simple:jar:5.0.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/com.carrotsearch:hppc:jar:0.7.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/joda-time:joda-time:jar:2.9.5</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.yaml:snakeyaml:jar:1.15</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.6</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.6</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.6</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.6</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/com.tdunning:t-digest:jar:3.0</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.apache.logging.log4j:log4j-api:jar:2.9.1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch:elasticsearch:jar:5.6.2/org.elasticsearch:jna:jar:4.4.0-1</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty3-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty3-client:jar:5.6.2/io.netty:netty:jar:3.10.6.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-buffer:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-codec:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-codec-http:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-common:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-handler:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-resolver:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:transport-netty4-client:jar:5.6.2/io.netty:netty-transport:jar:4.1.13.Final</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2/org.apache.httpcomponents:httpclient:jar:4.5.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2/org.apache.httpcomponents:httpcore:jar:4.4.5</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2/org.apache.httpcomponents:httpasyncclient:jar:4.1.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2/org.apache.httpcomponents:httpcore-nio:jar:4.4.5</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2/commons-codec:commons-codec:jar:1.3</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:reindex-client:jar:5.6.2/org.elasticsearch.client:elasticsearch-rest-client:jar:5.6.2/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:lang-mustache-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:lang-mustache-client:jar:5.6.2/com.github.spullara.mustache.java:compiler:jar:0.9.3</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:percolator-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch.client:transport:jar:5.6.2/org.elasticsearch.plugin:parent-join-client:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch:elasticsearch-spark-20_2.11:jar:5.6.2</node>
+            <node x="" y="">org.elasticsearch:elasticsearch-spark-20_2.11:jar:5.6.2/org.apache.spark:spark-streaming_2.11:jar:2.1.1</node>
+            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.22</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.22</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.04868913857677903" x="3416.0" y="4252.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/DataLoader/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/StatisticRecommender/src/main/scala/StatisticRecommender.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/Dataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/DataLoader/src/main/scala/com/liukuijian/recommender/DataLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/OfflineRecommender.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/StatisticRecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/liukuijian/ALSTrainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/StreamingRecommender/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1.jar!/org/apache/spark/sql/DataFrameReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.1.1/spark-mllib_2.11-2.1.1.jar!/org/apache/spark/mllib/recommendation/Rating.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/DataLoader/src/main/resources/ratings.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="5607" column="6" selection-start-line="5607" selection-start-column="3" selection-end-line="5607" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/StreamingRecommender/src/main/scala/com/liukuijian/StreamingRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/scala/ContentBasedRecommender.scala" />
+    <entry file="file://$PROJECT_DIR$/recommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/StreamingRecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" selection-start-line="12" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/ContentBasedRecommender/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/DataLoader/src/main/resources/movies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.11/0.12/breeze_2.11-0.12.jar!/breeze/linalg/SparseVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/DataLoader/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/StatisticRecommender/src/main/scala/com/liukuijian/StatisticRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2172">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/liukuijian/OfflineRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1416">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/ContentBasedRecommender/src/main/scala/com/liukuijian/ContentBasedRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>OfflineRecommender</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
